@@ -46,8 +46,10 @@ curl_close($curl);
                     <div class="card card-stats">
                         <div class="card-header card-header-danger card-header-icon">
                             <div class="card-icon">
-                                <h2><?php echo $key['Province']; ?></h2>
+                                <h3><?php echo $key['Province']; ?></h3>
                             </div>
+                            <br>
+                            <br><br><br>
                             <h3 class="card-title"><span class="card-category">Active Cases :</span> <?php echo $key['Active']; ?></h3>
                             <hr>
                             <h3 class="card-title"><span class="card-category">Confirmed :</span> <?php echo $key['Confirmed']; ?></h3>
@@ -67,6 +69,7 @@ curl_close($curl);
             ?>
         </div>
         <main>
+            <footer>Code by <a href="https://github.com/Maxhar30">Mazhar Hussain</footer>
 </body>
 
 </html>
